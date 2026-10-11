@@ -1,0 +1,2 @@
+PASS: example schemas and 3 licensed asset checksums
+PASS anatomy: 89 native paths match SVG, 33 mapped / 19 list-only taxonomy subdivisions

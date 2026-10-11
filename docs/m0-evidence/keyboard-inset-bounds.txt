@@ -1,0 +1,2 @@
+        InsetsSource id=3 type=ime frame=[0,1762][1220,2656] visibleFrame=[0,1762][1220,2656] visible=true flags= sideHint=BOTTOM
+        mSource=InsetsSource id=3 type=ime frame=[0,1762][1220,2656] visibleFrame=[0,1762][1220,2656] visible=true flags= sideHint=BOTTOM

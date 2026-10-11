@@ -1,0 +1,944 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "views": {
+    "front": {
+      "view_box": [
+        0,
+        0,
+        35,
+        93
+      ],
+      "source_svg": "design/anatomy/front.svg"
+    },
+    "back": {
+      "view_box": [
+        37,
+        0,
+        35,
+        93
+      ],
+      "source_svg": "design/anatomy/back.svg"
+    }
+  },
+  "regions": [
+    {
+      "region_id": "neck-right",
+      "view": "front",
+      "path_ids": [
+        "neck-right"
+      ],
+      "subdivision_ids": [
+        "sternocleidomastoid"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "neck-left",
+      "view": "front",
+      "path_ids": [
+        "neck-left"
+      ],
+      "subdivision_ids": [
+        "sternocleidomastoid"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "shoulder-front-left",
+      "view": "front",
+      "path_ids": [
+        "shoulder-front-left"
+      ],
+      "subdivision_ids": [
+        "deltoid_anterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "shoulder-side-left",
+      "view": "front",
+      "path_ids": [
+        "shoulder-side-left"
+      ],
+      "subdivision_ids": [
+        "deltoid_lateral"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "shoulder-front-right",
+      "view": "front",
+      "path_ids": [
+        "shoulder-front-right"
+      ],
+      "subdivision_ids": [
+        "deltoid_anterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "shoulder-side-right",
+      "view": "front",
+      "path_ids": [
+        "shoulder-side-right"
+      ],
+      "subdivision_ids": [
+        "deltoid_lateral"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "biceps-left",
+      "view": "front",
+      "path_ids": [
+        "biceps-left"
+      ],
+      "subdivision_ids": [
+        "biceps_long"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "forearm-left",
+      "view": "front",
+      "path_ids": [
+        "forearm-left"
+      ],
+      "subdivision_ids": [
+        "brachioradialis"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "biceps-right",
+      "view": "front",
+      "path_ids": [
+        "biceps-right"
+      ],
+      "subdivision_ids": [
+        "biceps_long"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "forearm-right",
+      "view": "front",
+      "path_ids": [
+        "forearm-right"
+      ],
+      "subdivision_ids": [
+        "brachioradialis"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "chest-upper-left",
+      "view": "front",
+      "path_ids": [
+        "chest-upper-left"
+      ],
+      "subdivision_ids": [
+        "chest_clavicular"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "chest-lower-left",
+      "view": "front",
+      "path_ids": [
+        "chest-lower-left"
+      ],
+      "subdivision_ids": [
+        "chest_sternocostal"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "chest-upper-right",
+      "view": "front",
+      "path_ids": [
+        "chest-upper-right"
+      ],
+      "subdivision_ids": [
+        "chest_clavicular"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "chest-lower-right",
+      "view": "front",
+      "path_ids": [
+        "chest-lower-right"
+      ],
+      "subdivision_ids": [
+        "chest_sternocostal"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "abs-upper-left",
+      "view": "front",
+      "path_ids": [
+        "abs-upper-left"
+      ],
+      "subdivision_ids": [
+        "rectus_abdominis_upper"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "serratus-anterior-left",
+      "view": "front",
+      "path_ids": [
+        "serratus-anterior-left"
+      ],
+      "subdivision_ids": [
+        "serratus_anterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "obliques-left",
+      "view": "front",
+      "path_ids": [
+        "obliques-left"
+      ],
+      "subdivision_ids": [
+        "obliques"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "abs-upper-right",
+      "view": "front",
+      "path_ids": [
+        "abs-upper-right"
+      ],
+      "subdivision_ids": [
+        "rectus_abdominis_upper"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "abs-lower-right",
+      "view": "front",
+      "path_ids": [
+        "abs-lower-right"
+      ],
+      "subdivision_ids": [
+        "rectus_abdominis_lower"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "abs-lower-left",
+      "view": "front",
+      "path_ids": [
+        "abs-lower-left"
+      ],
+      "subdivision_ids": [
+        "rectus_abdominis_lower"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "serratus-anterior-right",
+      "view": "front",
+      "path_ids": [
+        "serratus-anterior-right"
+      ],
+      "subdivision_ids": [
+        "serratus_anterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "obliques-right",
+      "view": "front",
+      "path_ids": [
+        "obliques-right"
+      ],
+      "subdivision_ids": [
+        "obliques"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "hip-flexor-right",
+      "view": "front",
+      "path_ids": [
+        "hip-flexor-right"
+      ],
+      "subdivision_ids": [
+        "iliopsoas"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "hip-flexor-left",
+      "view": "front",
+      "path_ids": [
+        "hip-flexor-left"
+      ],
+      "subdivision_ids": [
+        "iliopsoas"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "quads-left",
+      "view": "front",
+      "path_ids": [
+        "quads-left"
+      ],
+      "subdivision_ids": [
+        "rectus_femoris"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "adductors-left",
+      "view": "front",
+      "path_ids": [
+        "adductors-left"
+      ],
+      "subdivision_ids": [
+        "adductor_longus_brevis"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "tibialis-anterior-left",
+      "view": "front",
+      "path_ids": [
+        "tibialis-anterior-left"
+      ],
+      "subdivision_ids": [
+        "tibialis_anterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "quads-right",
+      "view": "front",
+      "path_ids": [
+        "quads-right"
+      ],
+      "subdivision_ids": [
+        "rectus_femoris"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "adductors-right",
+      "view": "front",
+      "path_ids": [
+        "adductors-right"
+      ],
+      "subdivision_ids": [
+        "adductor_longus_brevis"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "tibialis-anterior-right",
+      "view": "front",
+      "path_ids": [
+        "tibialis-anterior-right"
+      ],
+      "subdivision_ids": [
+        "tibialis_anterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "nape",
+      "view": "back",
+      "path_ids": [
+        "nape"
+      ],
+      "subdivision_ids": [
+        "deep_neck_extensors"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "traps-upper-left",
+      "view": "back",
+      "path_ids": [
+        "traps-upper-left"
+      ],
+      "subdivision_ids": [
+        "trapezius_upper"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "traps-mid-left",
+      "view": "back",
+      "path_ids": [
+        "traps-mid-left"
+      ],
+      "subdivision_ids": [
+        "trapezius_middle"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "traps-lower-left",
+      "view": "back",
+      "path_ids": [
+        "traps-lower-left"
+      ],
+      "subdivision_ids": [
+        "trapezius_lower"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "traps-upper-right",
+      "view": "back",
+      "path_ids": [
+        "traps-upper-right"
+      ],
+      "subdivision_ids": [
+        "trapezius_upper"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "traps-mid-right",
+      "view": "back",
+      "path_ids": [
+        "traps-mid-right"
+      ],
+      "subdivision_ids": [
+        "trapezius_middle"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "traps-lower-right",
+      "view": "back",
+      "path_ids": [
+        "traps-lower-right"
+      ],
+      "subdivision_ids": [
+        "trapezius_lower"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "lats-upper-left",
+      "view": "back",
+      "path_ids": [
+        "lats-upper-left"
+      ],
+      "subdivision_ids": [
+        "latissimus"
+      ],
+      "mapping_precision": "merged_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "deltoid-rear-left",
+      "view": "back",
+      "path_ids": [
+        "deltoid-rear-left"
+      ],
+      "subdivision_ids": [
+        "deltoid_posterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "lats-mid-left",
+      "view": "back",
+      "path_ids": [
+        "lats-mid-left"
+      ],
+      "subdivision_ids": [
+        "latissimus"
+      ],
+      "mapping_precision": "merged_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "lats-lower-left",
+      "view": "back",
+      "path_ids": [
+        "lats-lower-left"
+      ],
+      "subdivision_ids": [
+        "latissimus"
+      ],
+      "mapping_precision": "merged_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "deltoid-rear-right",
+      "view": "back",
+      "path_ids": [
+        "deltoid-rear-right"
+      ],
+      "subdivision_ids": [
+        "deltoid_posterior"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "lats-upper-right",
+      "view": "back",
+      "path_ids": [
+        "lats-upper-right"
+      ],
+      "subdivision_ids": [
+        "latissimus"
+      ],
+      "mapping_precision": "merged_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "lats-mid-right",
+      "view": "back",
+      "path_ids": [
+        "lats-mid-right"
+      ],
+      "subdivision_ids": [
+        "latissimus"
+      ],
+      "mapping_precision": "merged_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "lats-lower-right",
+      "view": "back",
+      "path_ids": [
+        "lats-lower-right"
+      ],
+      "subdivision_ids": [
+        "latissimus"
+      ],
+      "mapping_precision": "merged_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "triceps-long-left",
+      "view": "back",
+      "path_ids": [
+        "triceps-long-left"
+      ],
+      "subdivision_ids": [
+        "triceps_long"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "triceps-lateral-left",
+      "view": "back",
+      "path_ids": [
+        "triceps-lateral-left"
+      ],
+      "subdivision_ids": [
+        "triceps_lateral"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "forearm-flexors-left",
+      "view": "back",
+      "path_ids": [
+        "forearm-flexors-left"
+      ],
+      "subdivision_ids": [
+        "forearm_flexors"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "forearm-extensors-left",
+      "view": "back",
+      "path_ids": [
+        "forearm-extensors-left"
+      ],
+      "subdivision_ids": [
+        "forearm_extensors"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "triceps-long-right",
+      "view": "back",
+      "path_ids": [
+        "triceps-long-right"
+      ],
+      "subdivision_ids": [
+        "triceps_long"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "triceps-lateral-right",
+      "view": "back",
+      "path_ids": [
+        "triceps-lateral-right"
+      ],
+      "subdivision_ids": [
+        "triceps_lateral"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "forearm-flexors-right",
+      "view": "back",
+      "path_ids": [
+        "forearm-flexors-right"
+      ],
+      "subdivision_ids": [
+        "forearm_flexors"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "forearm-extensors-right",
+      "view": "back",
+      "path_ids": [
+        "forearm-extensors-right"
+      ],
+      "subdivision_ids": [
+        "forearm_extensors"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "lower-back-erectors-left",
+      "view": "back",
+      "path_ids": [
+        "lower-back-erectors-left"
+      ],
+      "subdivision_ids": [
+        "erectors_lumbar"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "lower-back-erectors-right",
+      "view": "back",
+      "path_ids": [
+        "lower-back-erectors-right"
+      ],
+      "subdivision_ids": [
+        "erectors_lumbar"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "gluteus-medius-left",
+      "view": "back",
+      "path_ids": [
+        "gluteus-medius-left"
+      ],
+      "subdivision_ids": [
+        "gluteus_medius"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "gluteus-maximus-left",
+      "view": "back",
+      "path_ids": [
+        "gluteus-maximus-left"
+      ],
+      "subdivision_ids": [
+        "gluteus_maximus"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "gluteus-medius-right",
+      "view": "back",
+      "path_ids": [
+        "gluteus-medius-right"
+      ],
+      "subdivision_ids": [
+        "gluteus_medius"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "gluteus-maximus-right",
+      "view": "back",
+      "path_ids": [
+        "gluteus-maximus-right"
+      ],
+      "subdivision_ids": [
+        "gluteus_maximus"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "calves-gastroc-medial-left",
+      "view": "back",
+      "path_ids": [
+        "calves-gastroc-medial-left"
+      ],
+      "subdivision_ids": [
+        "gastrocnemius_medial"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "calves-gastroc-lateral-left",
+      "view": "back",
+      "path_ids": [
+        "calves-gastroc-lateral-left"
+      ],
+      "subdivision_ids": [
+        "gastrocnemius_lateral"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "calves-soleus-left",
+      "view": "back",
+      "path_ids": [
+        "calves-soleus-left"
+      ],
+      "subdivision_ids": [
+        "soleus"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "calves-gastroc-medial-right",
+      "view": "back",
+      "path_ids": [
+        "calves-gastroc-medial-right"
+      ],
+      "subdivision_ids": [
+        "gastrocnemius_medial"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "calves-gastroc-lateral-right",
+      "view": "back",
+      "path_ids": [
+        "calves-gastroc-lateral-right"
+      ],
+      "subdivision_ids": [
+        "gastrocnemius_lateral"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "calves-soleus-right",
+      "view": "back",
+      "path_ids": [
+        "calves-soleus-right"
+      ],
+      "subdivision_ids": [
+        "soleus"
+      ],
+      "mapping_precision": "exact_visual",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape labels correspond to the canonical visual region."
+    },
+    {
+      "region_id": "hamstrings-medial-left",
+      "view": "back",
+      "path_ids": [
+        "hamstrings-medial-left"
+      ],
+      "subdivision_ids": [
+        "semitendinosus"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "hamstrings-lateral-left",
+      "view": "back",
+      "path_ids": [
+        "hamstrings-lateral-left"
+      ],
+      "subdivision_ids": [
+        "biceps_femoris_long"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "hamstrings-medial-right",
+      "view": "back",
+      "path_ids": [
+        "hamstrings-medial-right"
+      ],
+      "subdivision_ids": [
+        "semitendinosus"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    },
+    {
+      "region_id": "hamstrings-lateral-right",
+      "view": "back",
+      "path_ids": [
+        "hamstrings-lateral-right"
+      ],
+      "subdivision_ids": [
+        "biceps_femoris_long"
+      ],
+      "mapping_precision": "approximation",
+      "license_source": "vulovix/body-muscles@15c8085ee97cb94c51f92c75224416b15f955b5c",
+      "notes": "Source shape combines or approximates the canonical subdivision; indicator only, not an independent muscle measurement."
+    }
+  ],
+  "unrendered_subdivision_ids": [
+    "adductor_magnus",
+    "biceps_femoris_short",
+    "biceps_short",
+    "brachialis",
+    "chest_lower_emphasis",
+    "erectors_thoracic",
+    "gluteus_minimus",
+    "gracilis",
+    "rhomboids",
+    "rotator_external",
+    "rotator_internal",
+    "semimembranosus",
+    "tensor_fasciae_latae",
+    "teres_major",
+    "transverse_abdominis",
+    "triceps_medial",
+    "vastus_intermedius",
+    "vastus_lateralis",
+    "vastus_medialis"
+  ]
+}

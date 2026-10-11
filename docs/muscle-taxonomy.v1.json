@@ -1,0 +1,586 @@
+{
+  "schema_version": "1.0",
+  "disclaimer": "Subdivisions are targetable body-map regions/training emphasis labels, not independent strength measurements. Some cannot be externally rendered or isolated. UI uses group-level ranks.",
+  "groups": [
+    {
+      "id": "chest",
+      "label": "Chest",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "chest_clavicular",
+          "label": "Upper/clavicular chest",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "chest_sternocostal",
+          "label": "Mid/sternocostal chest",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "chest_lower_emphasis",
+          "label": "Lower-chest emphasis region",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "deltoids",
+      "label": "Deltoids",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "deltoid_anterior",
+          "label": "Anterior deltoid",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "deltoid_lateral",
+          "label": "Lateral deltoid",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "deltoid_posterior",
+          "label": "Posterior deltoid",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "biceps",
+      "label": "Biceps",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "biceps_long",
+          "label": "Biceps brachii long head",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "biceps_short",
+          "label": "Biceps brachii short head",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "brachialis",
+          "label": "Brachialis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "triceps",
+      "label": "Triceps",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "triceps_long",
+          "label": "Triceps long head",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "triceps_lateral",
+          "label": "Triceps lateral head",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "triceps_medial",
+          "label": "Triceps medial head",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "forearms",
+      "label": "Forearms",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "brachioradialis",
+          "label": "Brachioradialis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "forearm_flexors",
+          "label": "Forearm flexors",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "forearm_extensors",
+          "label": "Forearm extensors",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "latissimus",
+          "label": "Latissimus dorsi",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "rhomboids",
+          "label": "Rhomboids",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "teres_major",
+          "label": "Teres major",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "erectors_thoracic",
+          "label": "Thoracic spinal erectors",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "erectors_lumbar",
+          "label": "Lumbar spinal erectors",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "traps",
+      "label": "Traps",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "trapezius_upper",
+          "label": "Upper trapezius",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "trapezius_middle",
+          "label": "Middle trapezius",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "trapezius_lower",
+          "label": "Lower trapezius",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Core",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "rectus_abdominis_upper",
+          "label": "Upper-ab emphasis region",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "rectus_abdominis_lower",
+          "label": "Lower-ab emphasis region",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "obliques",
+          "label": "Abdominal obliques",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "transverse_abdominis",
+          "label": "Transverse abdominis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "serratus_anterior",
+          "label": "Serratus anterior",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "glutes",
+      "label": "Glutes",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "gluteus_maximus",
+          "label": "Gluteus maximus",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "gluteus_medius",
+          "label": "Gluteus medius",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "gluteus_minimus",
+          "label": "Gluteus minimus",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "quadriceps",
+      "label": "Quadriceps",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "rectus_femoris",
+          "label": "Rectus femoris",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "vastus_lateralis",
+          "label": "Vastus lateralis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "vastus_medialis",
+          "label": "Vastus medialis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "vastus_intermedius",
+          "label": "Vastus intermedius",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "hamstrings",
+      "label": "Hamstrings",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "biceps_femoris_long",
+          "label": "Biceps femoris long head",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "biceps_femoris_short",
+          "label": "Biceps femoris short head",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "semitendinosus",
+          "label": "Semitendinosus",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "semimembranosus",
+          "label": "Semimembranosus",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "hip_adductors",
+      "label": "Hip Adductors",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "adductor_magnus",
+          "label": "Adductor magnus",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "adductor_longus_brevis",
+          "label": "Adductor longus/brevis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "gracilis",
+          "label": "Gracilis",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "hip_flexors",
+      "label": "Hip Flexors",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "iliopsoas",
+          "label": "Iliopsoas",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "tensor_fasciae_latae",
+          "label": "Tensor fasciae latae",
+          "visible_views": [
+            "front"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "calves",
+      "label": "Calves",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "gastrocnemius_medial",
+          "label": "Medial gastrocnemius",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "gastrocnemius_lateral",
+          "label": "Lateral gastrocnemius",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "soleus",
+          "label": "Soleus",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "tibialis_anterior",
+          "label": "Tibialis anterior",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "neck",
+      "label": "Neck",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "sternocleidomastoid",
+          "label": "Sternocleidomastoid",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "deep_neck_extensors",
+          "label": "Posterior neck extensors",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    },
+    {
+      "id": "rotator_cuff",
+      "label": "Rotator Cuff",
+      "rank_level": "group_only",
+      "subdivisions": [
+        {
+          "id": "rotator_external",
+          "label": "External rotators",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": true,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        },
+        {
+          "id": "rotator_internal",
+          "label": "Internal rotators",
+          "visible_views": [
+            "back"
+          ],
+          "renderable": false,
+          "evidence_limit": "Regional emphasis inferred from exercise maps; may not be independently trained or visualized."
+        }
+      ]
+    }
+  ]
+}

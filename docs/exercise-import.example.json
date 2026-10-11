@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "exercises": [
+    {
+      "id": "custom_bayesian_curl",
+      "name": "Bayesian Cable Curl",
+      "aliases": [
+        "Behind-the-body cable curl",
+        "Bayesian curl"
+      ],
+      "equipment": "cable",
+      "load_convention": "stack_display_kg",
+      "is_unilateral": true,
+      "muscles": [
+        {
+          "subdivision_id": "biceps_long",
+          "role": "primary",
+          "coefficient": 1.0,
+          "confidence": "ai_suggested"
+        },
+        {
+          "subdivision_id": "biceps_short",
+          "role": "secondary",
+          "coefficient": 0.35,
+          "confidence": "ai_suggested"
+        },
+        {
+          "subdivision_id": "brachialis",
+          "role": "secondary",
+          "coefficient": 0.35,
+          "confidence": "ai_suggested"
+        }
+      ],
+      "evidence_sources": [],
+      "notes": "Exercise-to-muscle mapping is a hypothesis requiring user approval; not a claim of selective head activation.",
+      "reviewed": false
+    }
+  ]
+}

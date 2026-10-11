@@ -1,0 +1,5 @@
+Kyant Backdrop 1.0.6
+Copyright Kyant0 and contributors.
+Source: https://github.com/Kyant0/AndroidLiquidGlass
+Pinned revision: 896a94a3ade1cc1a940b92365f942a34971fecda
+Licensed under the Apache License, Version 2.0 (included).

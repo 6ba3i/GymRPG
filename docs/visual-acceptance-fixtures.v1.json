@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "target_device": "Xiaomi 17 Pro / Chinese HyperOS 4 beta",
+  "mode": "native-compose-2d-svg",
+  "fixtures": [
+    {
+      "id": "V01",
+      "action": "Select Front; tap a renderable muscle region",
+      "expected": [
+        "native SVG-derived path hit test returns canonical subdivision ID",
+        "detail sheet lists corresponding exercises"
+      ]
+    },
+    {
+      "id": "V02",
+      "action": "Select Back",
+      "expected": [
+        "posterior paths visible",
+        "anterior hit targets not active",
+        "selected heatmap mode preserved"
+      ]
+    },
+    {
+      "id": "V03",
+      "action": "Select Bayesian cable curl",
+      "expected": [
+        "primary/secondary mapped biceps-related SVG regions highlight separately",
+        "no 3D orbit or GLB viewer"
+      ]
+    },
+    {
+      "id": "V04",
+      "action": "Tap Zoom to muscle; then Reset",
+      "expected": [
+        "bounded 2D scale/translate animation",
+        "region tap returns same ID after inverse transform",
+        "original full-body view restored"
+      ]
+    },
+    {
+      "id": "V05",
+      "action": "Toggle Full Glass to Efficient",
+      "expected": [
+        "background refraction and GPU-heavy blur deactivated",
+        "text contrast and touch targets preserved",
+        "pill navigation and cards still legible"
+      ]
+    },
+    {
+      "id": "V06",
+      "action": "Switch font size to 160%; enable gesture navigation",
+      "expected": [
+        "bottom pill remains above system gesture area",
+        "no primary controls clipped behind IME or camera cutout"
+      ]
+    },
+    {
+      "id": "V07",
+      "action": "Set anatomy mode to Strength Rank and then Volume",
+      "expected": [
+        "rank applies only to parent muscle groups",
+        "subdivision colors describe inferred metrics rather than measured growth",
+        "multi-hue legend and Unknown state appear"
+      ]
+    },
+    {
+      "id": "V08",
+      "action": "Use TalkBack to inspect tiny anatomical regions",
+      "expected": [
+        "accessible semantic region list works",
+        "front/back buttons and reset zoom have named focus targets"
+      ]
+    },
+    {
+      "id": "V09",
+      "action": "Display each of nine tier emblems at 24dp and 64dp",
+      "expected": [
+        "nine unique, original silhouettes/ornamentations",
+        "rank distinguishable without color alone",
+        "asset provenance available"
+      ]
+    },
+    {
+      "id": "V10",
+      "action": "Open themed home widget and Android launcher widget",
+      "expected": [
+        "home anatomy widget at top by default, removable/resizable",
+        "launcher widgets independent of in-app dashboard",
+        "system typeface fallback when custom font unsupported"
+      ]
+    }
+  ]
+}

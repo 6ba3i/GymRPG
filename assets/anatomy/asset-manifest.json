@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "anatomy-front-vulovix",
+      "kind": "anatomy",
+      "source_url": "https://github.com/vulovix/body-muscles/tree/15c8085ee97cb94c51f92c75224416b15f955b5c/src/data/muscles.front.ts",
+      "license_id": "Apache-2.0",
+      "license_verified": true,
+      "license_notice_path": "assets/anatomy/NOTICE",
+      "path": "design/anatomy/front.svg",
+      "editable_master": true,
+      "sha256": "fba172056481b10812aceaa0b4ecc90e289095a5f0658971af87ee92f16c88e4",
+      "attribution": "Copyright 2024 Ivan Vulovi\u0107",
+      "modifications": [
+        "Extracted original path d strings into editable SVG with stable IDs; source coordinates preserved."
+      ]
+    },
+    {
+      "id": "anatomy-back-vulovix",
+      "kind": "anatomy",
+      "source_url": "https://github.com/vulovix/body-muscles/tree/15c8085ee97cb94c51f92c75224416b15f955b5c/src/data/muscles.back.ts",
+      "license_id": "Apache-2.0",
+      "license_verified": true,
+      "license_notice_path": "assets/anatomy/NOTICE",
+      "path": "design/anatomy/back.svg",
+      "editable_master": true,
+      "sha256": "fe287e8558a9573ec2cbbfeb024d07c3f0eb7238dfe9a06d62ac6e74c08ec5c8",
+      "attribution": "Copyright 2024 Ivan Vulovi\u0107",
+      "modifications": [
+        "Extracted original path d strings into editable SVG with stable IDs; source coordinates preserved."
+      ]
+    }
+  ]
+}

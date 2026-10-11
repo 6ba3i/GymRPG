@@ -1,0 +1,389 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :core:designsystem:preBuild UP-TO-DATE
+> Task :core:designsystem:preDebugBuild UP-TO-DATE
+> Task :core:designsystem:processDebugNavigationResources UP-TO-DATE
+> Task :core:integrations:preBuild UP-TO-DATE
+> Task :core:integrations:preDebugBuild UP-TO-DATE
+> Task :core:integrations:processDebugNavigationResources UP-TO-DATE
+> Task :core:notifications:preBuild UP-TO-DATE
+> Task :core:notifications:preDebugBuild UP-TO-DATE
+> Task :core:notifications:processDebugNavigationResources UP-TO-DATE
+> Task :feature:anatomy:preBuild UP-TO-DATE
+> Task :feature:anatomy:preDebugBuild UP-TO-DATE
+> Task :feature:anatomy:processDebugNavigationResources UP-TO-DATE
+> Task :integration:xiaomi-cn:preBuild UP-TO-DATE
+> Task :integration:xiaomi-cn:preDebugBuild UP-TO-DATE
+> Task :integration:xiaomi-cn:processDebugNavigationResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :core:designsystem:generateDebugResources UP-TO-DATE
+> Task :core:designsystem:packageDebugResources UP-TO-DATE
+> Task :core:designsystem:parseDebugLocalResources UP-TO-DATE
+> Task :core:designsystem:generateDebugRFile UP-TO-DATE
+> Task :core:designsystem:compileDebugKotlin UP-TO-DATE
+> Task :core:designsystem:javaPreCompileDebug UP-TO-DATE
+> Task :core:designsystem:compileDebugJavaWithJavac NO-SOURCE
+> Task :core:designsystem:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :core:integrations:generateDebugResources UP-TO-DATE
+> Task :core:integrations:packageDebugResources UP-TO-DATE
+> Task :core:integrations:parseDebugLocalResources UP-TO-DATE
+> Task :core:integrations:generateDebugRFile UP-TO-DATE
+> Task :core:integrations:compileDebugKotlin UP-TO-DATE
+> Task :core:integrations:javaPreCompileDebug UP-TO-DATE
+> Task :core:integrations:compileDebugJavaWithJavac NO-SOURCE
+> Task :core:integrations:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :core:notifications:generateDebugResources UP-TO-DATE
+> Task :core:notifications:packageDebugResources UP-TO-DATE
+> Task :core:notifications:parseDebugLocalResources UP-TO-DATE
+> Task :core:notifications:generateDebugRFile UP-TO-DATE
+> Task :core:notifications:compileDebugKotlin UP-TO-DATE
+> Task :core:notifications:javaPreCompileDebug UP-TO-DATE
+> Task :core:notifications:compileDebugJavaWithJavac NO-SOURCE
+> Task :core:notifications:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :feature:anatomy:generateDebugResources UP-TO-DATE
+> Task :feature:anatomy:packageDebugResources UP-TO-DATE
+> Task :feature:anatomy:parseDebugLocalResources UP-TO-DATE
+> Task :feature:anatomy:generateDebugRFile UP-TO-DATE
+> Task :feature:anatomy:compileDebugKotlin UP-TO-DATE
+> Task :feature:anatomy:javaPreCompileDebug UP-TO-DATE
+> Task :feature:anatomy:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature:anatomy:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugResources UP-TO-DATE
+> Task :integration:xiaomi-cn:packageDebugResources UP-TO-DATE
+> Task :integration:xiaomi-cn:parseDebugLocalResources UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugRFile UP-TO-DATE
+> Task :integration:xiaomi-cn:compileDebugKotlin UP-TO-DATE
+> Task :integration:xiaomi-cn:javaPreCompileDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:compileDebugJavaWithJavac NO-SOURCE
+> Task :integration:xiaomi-cn:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :core:designsystem:writeDebugAarMetadata UP-TO-DATE
+> Task :core:integrations:writeDebugAarMetadata UP-TO-DATE
+> Task :core:notifications:writeDebugAarMetadata UP-TO-DATE
+> Task :feature:anatomy:writeDebugAarMetadata UP-TO-DATE
+> Task :integration:xiaomi-cn:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :core:designsystem:extractDeepLinksDebug UP-TO-DATE
+> Task :core:designsystem:processDebugManifest UP-TO-DATE
+> Task :core:integrations:extractDeepLinksDebug UP-TO-DATE
+> Task :core:integrations:processDebugManifest UP-TO-DATE
+> Task :core:notifications:extractDeepLinksDebug UP-TO-DATE
+> Task :core:notifications:processDebugManifest UP-TO-DATE
+> Task :feature:anatomy:extractDeepLinksDebug UP-TO-DATE
+> Task :feature:anatomy:processDebugManifest UP-TO-DATE
+> Task :integration:xiaomi-cn:extractDeepLinksDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :core:designsystem:mapDebugSourceSetPaths UP-TO-DATE
+> Task :core:designsystem:compileDebugLibraryResources UP-TO-DATE
+> Task :core:integrations:mapDebugSourceSetPaths UP-TO-DATE
+> Task :core:integrations:compileDebugLibraryResources UP-TO-DATE
+> Task :core:notifications:mapDebugSourceSetPaths UP-TO-DATE
+> Task :core:notifications:compileDebugLibraryResources UP-TO-DATE
+> Task :feature:anatomy:mapDebugSourceSetPaths UP-TO-DATE
+> Task :feature:anatomy:compileDebugLibraryResources UP-TO-DATE
+> Task :integration:xiaomi-cn:mapDebugSourceSetPaths UP-TO-DATE
+> Task :integration:xiaomi-cn:compileDebugLibraryResources UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :core:designsystem:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :core:designsystem:processDebugJavaRes UP-TO-DATE
+> Task :core:integrations:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :core:integrations:processDebugJavaRes UP-TO-DATE
+> Task :core:notifications:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :core:notifications:processDebugJavaRes UP-TO-DATE
+> Task :feature:anatomy:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :feature:anatomy:processDebugJavaRes UP-TO-DATE
+> Task :integration:xiaomi-cn:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:processDebugJavaRes UP-TO-DATE
+> Task :app:testDebugUnitTest
+> Task :core:designsystem:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:designsystem:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core:designsystem:compileDebugUnitTestKotlin NO-SOURCE
+> Task :core:designsystem:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :core:designsystem:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:designsystem:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core:designsystem:testDebugUnitTest NO-SOURCE
+> Task :core:integrations:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:integrations:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core:integrations:compileDebugUnitTestKotlin NO-SOURCE
+> Task :core:integrations:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :core:integrations:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:integrations:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core:integrations:testDebugUnitTest NO-SOURCE
+> Task :core:notifications:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:notifications:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core:notifications:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :core:notifications:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :core:notifications:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:notifications:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :core:notifications:testDebugUnitTest UP-TO-DATE
+> Task :feature:anatomy:preDebugUnitTestBuild UP-TO-DATE
+> Task :feature:anatomy:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :feature:anatomy:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :feature:anatomy:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :feature:anatomy:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :feature:anatomy:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :feature:anatomy:testDebugUnitTest UP-TO-DATE
+> Task :integration:xiaomi-cn:preDebugUnitTestBuild UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :integration:xiaomi-cn:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :integration:xiaomi-cn:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :integration:xiaomi-cn:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :integration:xiaomi-cn:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :integration:xiaomi-cn:testDebugUnitTest UP-TO-DATE
+> Task :core:designsystem:checkDebugAarMetadata UP-TO-DATE
+> Task :core:designsystem:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:designsystem:mergeDebugNativeLibs NO-SOURCE
+> Task :core:designsystem:stripDebugDebugSymbols NO-SOURCE
+> Task :core:designsystem:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :core:designsystem:extractDebugAnnotations UP-TO-DATE
+> Task :core:designsystem:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :core:designsystem:generateDebugAssets UP-TO-DATE
+> Task :core:designsystem:mergeDebugAssets UP-TO-DATE
+> Task :core:designsystem:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :core:designsystem:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :core:designsystem:prepareDebugArtProfile UP-TO-DATE
+> Task :core:designsystem:prepareLintJarForPublish UP-TO-DATE
+> Task :core:designsystem:mergeDebugJavaResource UP-TO-DATE
+> Task :core:designsystem:syncDebugLibJars UP-TO-DATE
+> Task :core:designsystem:bundleDebugLocalLintAar UP-TO-DATE
+> Task :feature:anatomy:checkDebugAarMetadata UP-TO-DATE
+> Task :feature:anatomy:mergeDebugJniLibFolders UP-TO-DATE
+> Task :feature:anatomy:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:anatomy:stripDebugDebugSymbols NO-SOURCE
+> Task :feature:anatomy:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:anatomy:extractDebugAnnotations UP-TO-DATE
+> Task :feature:anatomy:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :feature:anatomy:generateDebugAssets UP-TO-DATE
+> Task :feature:anatomy:mergeDebugAssets UP-TO-DATE
+> Task :feature:anatomy:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :feature:anatomy:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :feature:anatomy:prepareDebugArtProfile UP-TO-DATE
+> Task :feature:anatomy:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:anatomy:mergeDebugJavaResource UP-TO-DATE
+> Task :feature:anatomy:syncDebugLibJars UP-TO-DATE
+> Task :feature:anatomy:bundleDebugLocalLintAar UP-TO-DATE
+> Task :core:integrations:checkDebugAarMetadata UP-TO-DATE
+> Task :core:integrations:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:integrations:mergeDebugNativeLibs NO-SOURCE
+> Task :core:integrations:stripDebugDebugSymbols NO-SOURCE
+> Task :core:integrations:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :core:integrations:extractDebugAnnotations UP-TO-DATE
+> Task :core:integrations:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :core:integrations:generateDebugAssets UP-TO-DATE
+> Task :core:integrations:mergeDebugAssets UP-TO-DATE
+> Task :core:integrations:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :core:integrations:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :core:integrations:prepareDebugArtProfile UP-TO-DATE
+> Task :core:integrations:prepareLintJarForPublish UP-TO-DATE
+> Task :core:integrations:mergeDebugJavaResource UP-TO-DATE
+> Task :core:integrations:syncDebugLibJars UP-TO-DATE
+> Task :core:integrations:bundleDebugLocalLintAar UP-TO-DATE
+> Task :core:notifications:checkDebugAarMetadata UP-TO-DATE
+> Task :core:notifications:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:notifications:mergeDebugNativeLibs NO-SOURCE
+> Task :core:notifications:stripDebugDebugSymbols NO-SOURCE
+> Task :core:notifications:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :core:notifications:extractDebugAnnotations UP-TO-DATE
+> Task :core:notifications:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :core:notifications:generateDebugAssets UP-TO-DATE
+> Task :core:notifications:mergeDebugAssets UP-TO-DATE
+> Task :core:notifications:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :core:notifications:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :core:notifications:prepareDebugArtProfile UP-TO-DATE
+> Task :core:notifications:prepareLintJarForPublish UP-TO-DATE
+> Task :core:notifications:mergeDebugJavaResource UP-TO-DATE
+> Task :core:notifications:syncDebugLibJars UP-TO-DATE
+> Task :core:notifications:bundleDebugLocalLintAar UP-TO-DATE
+> Task :integration:xiaomi-cn:checkDebugAarMetadata UP-TO-DATE
+> Task :integration:xiaomi-cn:mergeDebugJniLibFolders UP-TO-DATE
+> Task :integration:xiaomi-cn:mergeDebugNativeLibs NO-SOURCE
+> Task :integration:xiaomi-cn:stripDebugDebugSymbols NO-SOURCE
+> Task :integration:xiaomi-cn:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :integration:xiaomi-cn:extractDebugAnnotations UP-TO-DATE
+> Task :integration:xiaomi-cn:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugAssets UP-TO-DATE
+> Task :integration:xiaomi-cn:mergeDebugAssets UP-TO-DATE
+> Task :integration:xiaomi-cn:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :integration:xiaomi-cn:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :integration:xiaomi-cn:prepareDebugArtProfile UP-TO-DATE
+> Task :integration:xiaomi-cn:prepareLintJarForPublish UP-TO-DATE
+> Task :integration:xiaomi-cn:mergeDebugJavaResource UP-TO-DATE
+> Task :integration:xiaomi-cn:syncDebugLibJars UP-TO-DATE
+> Task :integration:xiaomi-cn:bundleDebugLocalLintAar UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :core:designsystem:createFullJarDebug UP-TO-DATE
+> Task :core:designsystem:writeDebugLintModelMetadata UP-TO-DATE
+> Task :core:integrations:createFullJarDebug UP-TO-DATE
+> Task :core:integrations:writeDebugLintModelMetadata UP-TO-DATE
+> Task :core:notifications:createFullJarDebug UP-TO-DATE
+> Task :core:notifications:writeDebugLintModelMetadata UP-TO-DATE
+> Task :feature:anatomy:createFullJarDebug UP-TO-DATE
+> Task :feature:anatomy:writeDebugLintModelMetadata UP-TO-DATE
+> Task :integration:xiaomi-cn:createFullJarDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:writeDebugLintModelMetadata UP-TO-DATE
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :core:designsystem:extractProguardFiles UP-TO-DATE
+> Task :core:designsystem:generateDebugLintModel UP-TO-DATE
+> Task :core:integrations:extractProguardFiles UP-TO-DATE
+> Task :core:integrations:generateDebugLintModel UP-TO-DATE
+> Task :core:notifications:extractProguardFiles UP-TO-DATE
+> Task :core:notifications:generateDebugLintModel UP-TO-DATE
+> Task :feature:anatomy:extractProguardFiles UP-TO-DATE
+> Task :feature:anatomy:generateDebugLintModel UP-TO-DATE
+> Task :integration:xiaomi-cn:extractProguardFiles UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugLintModel UP-TO-DATE
+> Task :app:generateDebugLintReportModel UP-TO-DATE
+> Task :app:generateDebugUnitTestLintModel
+> Task :core:designsystem:lintAnalyzeDebug UP-TO-DATE
+> Task :core:integrations:lintAnalyzeDebug UP-TO-DATE
+> Task :core:notifications:lintAnalyzeDebug UP-TO-DATE
+> Task :core:designsystem:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core:designsystem:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :core:designsystem:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :core:designsystem:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :core:designsystem:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :core:integrations:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core:integrations:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :core:integrations:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :core:integrations:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :core:notifications:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core:notifications:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :core:notifications:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :feature:anatomy:preDebugAndroidTestBuild UP-TO-DATE
+> Task :feature:anatomy:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :feature:anatomy:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :integration:xiaomi-cn:preDebugAndroidTestBuild UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :integration:xiaomi-cn:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :core:designsystem:generateDebugLintReportModel UP-TO-DATE
+> Task :core:integrations:generateDebugLintReportModel UP-TO-DATE
+> Task :core:notifications:generateDebugLintReportModel UP-TO-DATE
+> Task :feature:anatomy:generateDebugLintReportModel UP-TO-DATE
+> Task :core:integrations:lintAnalyzeDebugUnitTest
+> Task :integration:xiaomi-cn:generateDebugLintReportModel UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :core:notifications:lintAnalyzeDebugAndroidTest
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :feature:anatomy:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :core:designsystem:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :integration:xiaomi-cn:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :core:integrations:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :core:notifications:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:designsystem:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :core:integrations:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :core:notifications:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :feature:anatomy:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :integration:xiaomi-cn:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugAndroidTestManifest UP-TO-DATE
+> Task :app:generateDebugAndroidTestBuildConfig UP-TO-DATE
+> Task :app:generateDebugAndroidTestResources UP-TO-DATE
+> Task :app:packageDebugAndroidTestResources UP-TO-DATE
+> Task :app:processDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseDebugAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateDebugAndroidTestRFile UP-TO-DATE
+> Task :feature:anatomy:lintAnalyzeDebugAndroidTest
+> Task :core:notifications:lintAnalyzeDebugUnitTest
+> Task :integration:xiaomi-cn:lintAnalyzeDebugAndroidTest
+> Task :integration:xiaomi-cn:lintAnalyzeDebug
+> Task :integration:xiaomi-cn:lintAnalyzeDebugUnitTest
+
+> Task :core:designsystem:lintReportDebug
+Wrote HTML report to file:///home/idriss/projects/GymRPG/core/designsystem/build/reports/lint-results-debug.html
+
+> Task :core:designsystem:lintDebug
+> Task :core:integrations:lintReportDebug
+> Task :core:integrations:lintDebug
+
+> Task :core:notifications:lintReportDebug
+Wrote HTML report to file:///home/idriss/projects/GymRPG/core/notifications/build/reports/lint-results-debug.html
+
+> Task :core:notifications:lintDebug
+> Task :app:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :app:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :app:generateDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :app:mergeLibDexDebugAndroidTest UP-TO-DATE
+> Task :app:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :app:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :integration:xiaomi-cn:lintReportDebug
+> Task :app:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :integration:xiaomi-cn:lintDebug
+> Task :app:processDebugAndroidTestResources UP-TO-DATE
+> Task :app:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :app:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug UP-TO-DATE
+> Task :app:compileDebugAndroidTestKotlin
+> Task :feature:anatomy:lintAnalyzeDebugUnitTest
+> Task :app:lintAnalyzeDebugUnitTest
+> Task :app:compileDebugAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:lintAnalyzeDebugAndroidTest
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebugAndroidTest
+> Task :feature:anatomy:lintAnalyzeDebug
+> Task :feature:anatomy:lintReportDebug
+> Task :feature:anatomy:lintDebug
+> Task :app:lintAnalyzeDebug
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///home/idriss/projects/GymRPG/app/build/reports/lint-results-debug.html
+
+> Task :app:lintDebug
+
+BUILD SUCCESSFUL in 1m 14s
+313 actionable tasks: 33 executed, 280 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.4.1/userguide/configuration_cache_enabling.html

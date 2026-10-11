@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.gymrpg/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.gymrpg/.MainActivity
+TotalTime: 507
+WaitTime: 511
+Complete

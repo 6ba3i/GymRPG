@@ -1,0 +1,5 @@
+# Native anatomy geometry provenance
+
+The editable front/back SVG masters in `design/anatomy/` are derived without coordinate changes from `src/data/muscles.front.ts` and `src/data/muscles.back.ts` at https://github.com/vulovix/body-muscles commit `15c8085ee97cb94c51f92c75224416b15f955b5c`. Copyright 2024 Ivan Vulović; Apache-2.0. `LICENSE` and `NOTICE` are copied from upstream. Native path constants are direct derivatives of those master SVGs. No upstream JavaScript renderer or body photos ship in the app.
+
+`regions.v1.json` maps source geometry onto canonical taxonomy `docs/muscle-taxonomy.v1.json`. Each approximation or merged shape is marked. Only 33 of 52 canonical subdivisions have representative source geometry. The remaining 19 taxonomy subdivisions are listed as unrendered, with labels in the accessible alternate list; source art cannot justify 52 distinct shapes. View boxes preserve upstream 0 0 35 93 and 37 0 35 93. SVG paths render in source order; hit testing reverses that order for overlaps.

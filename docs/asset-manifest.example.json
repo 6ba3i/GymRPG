@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "anatomy-front-master",
+      "kind": "anatomy",
+      "source_url": "https://github.com/vulovix/body-muscles",
+      "license_id": "Apache-2.0",
+      "license_verified": false,
+      "license_notice_path": null,
+      "path": "design/anatomy/front.svg",
+      "editable_master": true,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "attribution": "EXAMPLE ONLY: replace before distribution",
+      "modifications": [
+        "example placeholder; no asset bundled"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Upstream: https://github.com/googlefonts/googlesans-flex
+Asset: https://github.com/googlefonts/googlesans-flex/releases/download/v4.007/GoogleSansFlex-v4.007.Android.zip

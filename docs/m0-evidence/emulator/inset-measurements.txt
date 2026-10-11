@@ -1,0 +1,5 @@
+--------- beginning of main
+10-11 04:02:26.410  5398  5482 I M0Insets: api=37 decor=1080x2400 pill=Rect.fromLTRB(32.0, 2147.0, 1048.0, 2316.0) navBottom=63
+10-11 04:02:26.433  5398  5482 I M0Insets: header=Rect.fromLTRB(0.0, 136.0, 1080.0, 424.0) statusTop=136 cutout=136
+10-11 04:07:26.667  8356  8372 I M0Insets: api=37 decor=1080x2400 pill=Rect.fromLTRB(32.0, 2147.0, 1048.0, 2316.0) navBottom=63
+10-11 04:07:26.683  8356  8372 I M0Insets: header=Rect.fromLTRB(0.0, 136.0, 1080.0, 424.0) statusTop=136 cutout=136

@@ -1,0 +1,16 @@
+
+# Installed external skill/source caches
+.gymrpg/bootstrap/
+.agents/skills/upstream-*
+design/vendor/
+.agents/.omx
+.omx/
+# Native Android local/generated files
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+*.jks
+*.keystore

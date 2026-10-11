@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/gymrpg/schemas/asset-manifest.v1.json",
+  "title": "Gym RPG asset provenance manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "source_url",
+          "license_id",
+          "license_verified",
+          "path",
+          "editable_master",
+          "sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "font",
+              "anatomy",
+              "icon",
+              "rank_emblem",
+              "branding",
+              "animation",
+              "other"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "license_id": {
+            "type": "string"
+          },
+          "license_verified": {
+            "type": "boolean"
+          },
+          "license_notice_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "path": {
+            "type": "string"
+          },
+          "editable_master": {
+            "type": "boolean"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "attribution": {
+            "type": "string"
+          },
+          "modifications": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

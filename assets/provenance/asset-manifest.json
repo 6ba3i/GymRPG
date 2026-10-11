@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "google-sans-flex-v4.007",
+      "kind": "font",
+      "source_url": "https://github.com/googlefonts/googlesans-flex/releases/tag/v4.007",
+      "license_id": "OFL-1.1",
+      "license_verified": true,
+      "license_notice_path": "core/designsystem/src/main/assets/licenses/GoogleSansFlex-OFL.txt",
+      "path": "core/designsystem/src/main/res/font/google_sans_flex.ttf",
+      "editable_master": false,
+      "sha256": "9f0222f118705507db1fece241ec7cd3fe87698744cbcc242b3f175bd984340d",
+      "attribution": "Copyright 2022 The Google Sans Flex Project Authors (github.com/googlefonts/googlesans-flex)",
+      "modifications": []
+    }
+  ]
+}

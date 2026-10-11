@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gym RPG custom exercise import v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "exercises"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/exercise"
+      }
+    }
+  },
+  "$defs": {
+    "mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subdivision_id",
+        "role",
+        "coefficient",
+        "confidence"
+      ],
+      "properties": {
+        "subdivision_id": {
+          "enum": [
+            "chest_clavicular",
+            "chest_sternocostal",
+            "chest_lower_emphasis",
+            "deltoid_anterior",
+            "deltoid_lateral",
+            "deltoid_posterior",
+            "biceps_long",
+            "biceps_short",
+            "brachialis",
+            "triceps_long",
+            "triceps_lateral",
+            "triceps_medial",
+            "brachioradialis",
+            "forearm_flexors",
+            "forearm_extensors",
+            "latissimus",
+            "rhomboids",
+            "teres_major",
+            "erectors_thoracic",
+            "erectors_lumbar",
+            "trapezius_upper",
+            "trapezius_middle",
+            "trapezius_lower",
+            "rectus_abdominis_upper",
+            "rectus_abdominis_lower",
+            "obliques",
+            "transverse_abdominis",
+            "serratus_anterior",
+            "gluteus_maximus",
+            "gluteus_medius",
+            "gluteus_minimus",
+            "rectus_femoris",
+            "vastus_lateralis",
+            "vastus_medialis",
+            "vastus_intermedius",
+            "biceps_femoris_long",
+            "biceps_femoris_short",
+            "semitendinosus",
+            "semimembranosus",
+            "adductor_magnus",
+            "adductor_longus_brevis",
+            "gracilis",
+            "iliopsoas",
+            "tensor_fasciae_latae",
+            "gastrocnemius_medial",
+            "gastrocnemius_lateral",
+            "soleus",
+            "tibialis_anterior",
+            "sternocleidomastoid",
+            "deep_neck_extensors",
+            "rotator_external",
+            "rotator_internal"
+          ]
+        },
+        "role": {
+          "enum": [
+            "primary",
+            "secondary"
+          ]
+        },
+        "coefficient": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "confidence": {
+          "enum": [
+            "reviewed",
+            "ai_suggested",
+            "user_defined",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "equipment",
+        "load_convention",
+        "aliases",
+        "muscles"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "equipment": {
+          "enum": [
+            "barbell",
+            "dumbbell",
+            "cable",
+            "smith_machine",
+            "plate_machine",
+            "selectorized_machine",
+            "bodyweight",
+            "band",
+            "kettlebell",
+            "other"
+          ]
+        },
+        "load_convention": {
+          "enum": [
+            "total_external_kg",
+            "per_hand_kg",
+            "stack_display_kg",
+            "machine_display_kg",
+            "bodyweight_plus_external_kg",
+            "assistance_kg",
+            "resistance_band",
+            "unranked"
+          ]
+        },
+        "is_unilateral": {
+          "type": "boolean"
+        },
+        "muscles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/mapping"
+          }
+        },
+        "evidence_sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

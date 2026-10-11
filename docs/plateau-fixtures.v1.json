@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "note": "Acceptance reference states; full exercise-to-subdivision math is tested in code with deterministic weights.",
+  "tests": [
+    {
+      "id": "exact_half_rotates_on_third",
+      "eligible_regions": 6,
+      "total_regions": 6,
+      "coverage": 1.0,
+      "stagnant_counts": [
+        3,
+        3,
+        3
+      ],
+      "expected_counter": [
+        1,
+        2,
+        3
+      ],
+      "expected_rotate_at_attempt": 3
+    },
+    {
+      "id": "one_good_breaks_streak",
+      "eligible_regions": 6,
+      "total_regions": 6,
+      "coverage": 1.0,
+      "stagnant_counts": [
+        4,
+        2,
+        5,
+        3,
+        3
+      ],
+      "expected_counter": [
+        1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_rotate_at_attempt": 5
+    },
+    {
+      "id": "insufficient_coverage_does_not_count_or_reset",
+      "eligible_regions": 4,
+      "total_regions": 8,
+      "coverage": 0.4,
+      "stagnant_counts": [
+        3
+      ],
+      "starting_counter": 2,
+      "expected_counter": [
+        2
+      ],
+      "expected_rotate_at_attempt": null
+    },
+    {
+      "id": "two_regions_insufficient",
+      "eligible_regions": 2,
+      "total_regions": 2,
+      "coverage": 1.0,
+      "stagnant_counts": [
+        2
+      ],
+      "starting_counter": 1,
+      "expected_counter": [
+        1
+      ],
+      "expected_rotate_at_attempt": null
+    }
+  ]
+}
